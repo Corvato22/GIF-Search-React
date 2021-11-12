@@ -5,7 +5,7 @@ export const CategoriasLista = ( {categoria} ) => {
 
     return (
         <div>
-            <h3>Lista de Categorias</h3>
+            <h3>Resultados de busqueda:</h3>
             {
                 categoria.map((cate, index) => {
                     return (
